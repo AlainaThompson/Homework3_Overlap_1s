@@ -17,6 +17,8 @@
 		0919754527AD897C009B899E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0919751B27AD8979009B899E /* ContentView.swift */; };
 		0919754627AD897C009B899E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0919751C27AD897B009B899E /* Assets.xcassets */; };
 		0919754727AD897C009B899E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0919751C27AD897B009B899E /* Assets.xcassets */; };
+		0919755727AD8989009B899E /* Overlap Integral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0919755627AD8989009B899E /* Overlap Integral.swift */; };
+		0919755827AD8989009B899E /* Overlap Integral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0919755627AD8989009B899E /* Overlap Integral.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		0919753A27AD897B009B899E /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0919753E27AD897B009B899E /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		0919754027AD897B009B899E /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		0919755627AD8989009B899E /* Overlap Integral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Overlap Integral.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 			children = (
 				0919751A27AD8979009B899E /* Overlap_Integral_1s_OrbitalsApp.swift */,
 				0919751B27AD8979009B899E /* ContentView.swift */,
+				0919755627AD8989009B899E /* Overlap Integral.swift */,
 				0919751C27AD897B009B899E /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -301,6 +305,7 @@
 			files = (
 				0919754427AD897C009B899E /* ContentView.swift in Sources */,
 				0919754227AD897C009B899E /* Overlap_Integral_1s_OrbitalsApp.swift in Sources */,
+				0919755727AD8989009B899E /* Overlap Integral.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +315,7 @@
 			files = (
 				0919754527AD897C009B899E /* ContentView.swift in Sources */,
 				0919754327AD897C009B899E /* Overlap_Integral_1s_OrbitalsApp.swift in Sources */,
+				0919755827AD8989009B899E /* Overlap Integral.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
