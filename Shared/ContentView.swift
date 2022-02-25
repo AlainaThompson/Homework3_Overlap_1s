@@ -10,7 +10,8 @@ import SwiftUI
 struct ContentView: View {
     
     @ObservedObject private var SModel = OverlapInt()
-    @State var RString = "0.0"
+    @ObservedObject private var IModel = Integration()
+    @State var RString = "1.0"
 
     
     var body: some View {
@@ -53,12 +54,16 @@ struct ContentView: View {
                       .frame(width: 100)
                       .padding(.top, 0)
                       .padding(.bottom,30)
-                      
-            
-                  
-                  
-                  
-                  
+             VStack{
+                    Text("Integrated")
+                        .padding(.bottom, 0)
+                    Text("\(IModel.I, specifier: "%.2f")")
+                        .padding(.horizontal)
+                        .frame(width: 100)
+                        .padding(.top, 0)
+                        .padding(.bottom,30)
+                     
+                  }
                   
                   
                   }
@@ -83,9 +88,7 @@ struct ContentView: View {
               
               let _ : Bool = await SModel.initWithOverlap(R: Double(RString)!)
               
-              
-
-      }
+          }
         
         
         
